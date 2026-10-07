@@ -1,10 +1,10 @@
-# Simple RAG — Upload a PDF and Ask Questions
+# RAG — Upload a PDF and Ask Questions
 
 This version intentionally stays simple.
 
 ## Files
 
-- `simple_rag.py` — your original learning code, preserved and only changed where necessary for the faster model and safer empty-data handling.
+- `simple_rag.py` — rag
 - `rag_engine.py` — the same RAG steps extracted into small functions so the Streamlit UI stays clean.
 - `app.py` — the Streamlit interface.
 - `data/` — uploaded PDFs are stored here.
